@@ -1,0 +1,6 @@
+{
+    "require": {
+        "enqueue/simple-client": "^0.10.16",
+        "enqueue/fs": "^0.10.16"
+    }
+}
