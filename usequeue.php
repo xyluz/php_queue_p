@@ -9,7 +9,7 @@ $queue = new createqueue();
 $queue->enqueue("apple");
 $queue->enqueue("banana");
 $queue->enqueue("cherry");
-
+//here am displaying the size ot the data in the queue
 echo "Queue size: " . $queue->size() . "\n"; // Output: Queue size: 3
 // echo "Front of queue: " . $queue->peek() . "\n"; // Output: Front of queue: apple
 // echo "Dequeued item: " . $queue->dequeue() . "\n"; // Output: Dequeued item: apple
