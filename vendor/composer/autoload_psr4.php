@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Symfony\\Polyfill\\Php81\\' => array($vendorDir . '/symfony/polyfill-php81'),
+    'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
@@ -15,12 +16,16 @@ return array(
     'Ramsey\\Collection\\' => array($vendorDir . '/ramsey/collection/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src/PhpOption'),
+    'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'Interop\\Queue\\' => array($vendorDir . '/queue-interop/queue-interop/src'),
     'Interop\\Amqp\\' => array($vendorDir . '/queue-interop/amqp-interop/src'),
+    'GrahamCampbell\\ResultType\\' => array($vendorDir . '/graham-campbell/result-type/src'),
     'Enqueue\\SimpleClient\\' => array($vendorDir . '/enqueue/simple-client'),
     'Enqueue\\Null\\' => array($vendorDir . '/enqueue/null'),
     'Enqueue\\Fs\\' => array($vendorDir . '/enqueue/fs'),
     'Enqueue\\Dsn\\' => array($vendorDir . '/enqueue/dsn'),
     'Enqueue\\' => array($vendorDir . '/enqueue/enqueue'),
+    'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
 );
