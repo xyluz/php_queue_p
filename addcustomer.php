@@ -11,6 +11,7 @@ use App\customers\customers;
 ?>
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
   <title>Add Customer</title>
   <meta charset="utf-8">
